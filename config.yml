@@ -8,3 +8,8 @@ articles:
   repository:
     clone_url: https://github.com/acme-magazine-01/acme-v1.3-octocat.git
     ssh_url: git@github.com:acme-magazine-01/acme-v1.3-octocat.git
+- username: mojavelinux
+  local_dir: acme-v1.3-mojavelinux
+  repository:
+    clone_url: https://github.com/acme-magazine-01/acme-v1.3-mojavelinux.git
+    ssh_url: git@github.com:acme-magazine-01/acme-v1.3-mojavelinux.git
