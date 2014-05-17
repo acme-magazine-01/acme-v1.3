@@ -42,5 +42,10 @@ ifdef::buildfor-editor,buildfor-octocat[]
 include::{articledir}/article.adoc[]
 endif::[]
 
-// FIXME converters should restore attributes after parsing/rendering
-:imagesdir: images
+ifdef::buildfor-editor,buildfor-mojavelinux[]
+:username: mojavelinux
+:idprefix: da_
+:articledir: {edition-handle}-{username}
+:imagesdir: acme-v1.3-mojavelinux/images
+include::{articledir}/article.adoc[]
+endif::[]
