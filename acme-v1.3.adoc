@@ -34,14 +34,6 @@ ifdef::buildfor-editor[]
 include::publishers-letter.adoc[]
 endif::[]
 
-ifdef::buildfor-editor,buildfor-octocat[]
-:username: octocat
-:idprefix: to_
-:articledir: {edition-handle}-{username}
-:imagesdir: acme-v1.3-octocat/images
-include::{articledir}/article.adoc[]
-endif::[]
-
 ifdef::buildfor-editor,buildfor-mojavelinux[]
 :username: mojavelinux
 :idprefix: da_
